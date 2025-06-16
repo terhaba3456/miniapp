@@ -57,10 +57,10 @@ class DbConfig:
         """
         Creates the DbConfig object from environment variables.
         """
-        host = env.str("DB_HOST")
-        password = env.str("POSTGRES_PASSWORD")
-        user = env.str("POSTGRES_USER")
-        database = env.str("POSTGRES_DB")
+        host = env.str("localhost")
+        password = env.str("Sametkoc49")
+        user = env.str("sosy_sam1")
+        database = env.str("sosy_sam1")
         port = env.int("DB_PORT", 5432)
         return DbConfig(
             host=host, password=password, user=user, database=database, port=port
