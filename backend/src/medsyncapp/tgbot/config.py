@@ -83,7 +83,7 @@ class TgBot:
         """
         Creates the TgBot object from environment variables.
         """
-        token = env.str("BOT_TOKEN")
+        token = env.str("7912892636:AAGA2VVq9rPAoo_nVjxO6NpGnqR2rOfnYwM")
         admin_ids = list(map(int, env.list("ADMINS")))
         use_redis = env.bool("USE_REDIS")
         web_app_domain = env.str("FRONTEND_URL")
